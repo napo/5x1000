@@ -1,4 +1,6 @@
 # 5x1000
+[foglio di calcolo](https://docs.google.com/spreadsheets/d/1B4OyWiPpes-0HE0-e3jBXHFbXjBQ-ZF2rt-yJowId0k/edit?usp=sharing)
+
 alcuni script "pro-memoria" per scaricare i dati del 5x1000
 ## pre-requisiti
 - linux shell
