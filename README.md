@@ -7,7 +7,7 @@ alcuni script "pro-memoria" per scaricare i dati del 5x1000
 - [tabula](http://tabula.tecnology)
 - preparare il necessario per usare tabula da [linea di comando](https://github.com/tabulapdf/tabula-extractor/wiki/Using-the-command-line-tabula-extractor-tool)
 - [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
-- 
+
 
 ## howto (quick&dirty)
 1. scaricare l'[elenco completo dei beneficiari](http://www1.agenziaentrate.it/elenchi%205x1000%202014/Elenco%20completo%20dei%20beneficiari.pdf) dal sito dell'(agenzia delle entrate)[http://www.agenziaentrate.gov.it}
