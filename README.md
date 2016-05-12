@@ -10,11 +10,14 @@ alcuni script "pro-memoria" per scaricare i dati del 5x1000
 
 
 ## howto (quick&dirty)
-1. scaricare l'[elenco completo dei beneficiari](http://www1.agenziaentrate.it/elenchi%205x1000%202014/Elenco%20completo%20dei%20beneficiari.pdf) dal sito dell'(agenzia delle entrate)[http://www.agenziaentrate.gov.it}
+1. scaricare l'[elenco completo dei beneficiari](http://www1.agenziaentrate.it/elenchi%205x1000%202014/Elenco%20completo%20dei%20beneficiari.pdf) dal sito dell'[agenzia delle entrate](http://www.agenziaentrate.gov.it) 
+
 ```bash
 wget "http://www1.agenziaentrate.it/elenchi%205x1000%202014/Elenco%20completo%20dei%20beneficiari.pdf"
 ```
+
 2. estrarre la prima pagina con pdftk
+
 ```bash
 pdftk "Elenco completo dei beneficiari.pdf" cat 1-1 output pagina1.pdf
 ```
@@ -23,11 +26,12 @@ pdftk "Elenco completo dei beneficiari.pdf" cat 1-1 output pagina1.pdf
 5. selezionare l'area dei dati
 6. alla voce 'Export Format' selezionare "script"
 7. modificare il file tabula-1.sh scaricato sostituendo il testo
-```
+```bash
 -p 1 "$1"  
 ```
 con 
-```-p all -o elencobeneficiari.csv "Elenco completo dei beneficiari.pdf"
+```bash
+-p all -o elencobeneficiari.csv "Elenco completo dei beneficiari.pdf"
 ```
 8. dare i permessi di esecuzione allo script e lanciarlo
 ```bash
